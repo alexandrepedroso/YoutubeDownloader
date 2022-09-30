@@ -1,4 +1,5 @@
 import os
+import sys
 import json
 import requests
 import streamlit as st
@@ -10,7 +11,6 @@ with open("styles.css") as f:
 
 
 st.title(' Baixador de vídeos - Youtube')
-
 
 
 def baixar ():
